@@ -1,0 +1,18 @@
+<jsp:useBean id="trial" class="trial.UserData" scope="session"/>
+<jsp:setProperty name="trial" property="*"/> 
+<HTML>
+<BODY>
+<%! int orderid=1001;
+%>
+You Order id is <%=orderid%><BR>
+<% while(true){ %>
+Name: <%= trial.getFirstName()+getLastName() %><BR>
+Email: <%= trial.getEmail() %><BR>
+Address:<%= trial.getAddress()%><BR>
+City:<%= trial.getCity()%><BR>
+State:<%= trial.getState()%><BR>
+Zip:<%= trial.getZip()%><BR>
+<%orderid+1;
+}%>
+</BODY>
+</HTML>

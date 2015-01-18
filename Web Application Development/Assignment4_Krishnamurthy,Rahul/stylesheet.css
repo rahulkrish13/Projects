@@ -1,0 +1,54 @@
+
+
+h1 {
+   letter-spacing: 6px;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+h2 {
+   text-align: left;
+   letter-spacing: 6px;
+   font-size: 1.4em;
+   
+   font-weight: normal;
+   width: 450px;
+}
+
+table {
+   width: 550px;
+   padding: 10px;
+   font-family: sans-serif;
+}
+
+td {
+   padding: 10px;
+}
+
+a {
+  
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.popupBox {
+  position: absolute;
+  left: 540px;
+}
+
+.popupCell {
+   background-color: #fffafa;
+}
+
+.popupCell:hover {
+  background-color: #f5ebe9;
+}
+
+.popupItem {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
